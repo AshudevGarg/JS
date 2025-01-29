@@ -64,8 +64,9 @@ function handleObject(anyobject){
   console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
-// handleObject(user)
-handleObject({
+handleObject(user) // we can pass object as argument
+
+handleObject({ // we can pass object directly
   username: "sam",
   price: 399
 })
@@ -77,7 +78,7 @@ function returnSecondValue(getArray){
 }
 
 
-// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue(myNewArray)); //here we can pass array as argument
 
-// console.log(returnSecondValue([200, 400, 500, 1000]));
+console.log(returnSecondValue([200, 400, 500, 1000]));//here we can pass array directly
 
